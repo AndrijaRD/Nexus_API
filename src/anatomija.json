@@ -1,0 +1,334 @@
+[
+    {
+        "lectionTitle": "Epitelno Tkivo",
+        "lectionIcon": "anatomy/tkivo.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Epitelno Tkivo</h1> <div class='textbox'> Epitelno Tkivo oblaze duplje i pokriva Telo. <br> Deli se na: <br> <b class='blue'>Pokrovni</b> i <b class='red'>Zlezdani</b>.<br><br> Pokrovni epitel se deli na <b class='green'>Jednoslojni</b> i <b class='purple'>Viseslojni</b><br> </div> <div class='textbox'> Jednoslojni se deli na <b class='green'>Ljuspasti</b>, <b class='green'>Kockasti</b> i <b class='green'>Cilindricni</b><br> <div class='wrap'> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/ljuspasto_epiteno_tkivo.png' alt='.'> <h3>Ljuspasto Epitelno Tkivo</h3> </div> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/kockasto_epitelno_tkivo.png' alt='.2'> <h3>Kockasto Epitelno Tkivo</h3> </div> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/cilindricno_epitelno_tkivo.png' alt='.3'> <h3>Cilindricno Epitelno Tkivo</h3> </div> </div><br> </div> <div class='textbox'> Viseslojni se deli na <b class='purple'>Plocasto Slojeviti</b>, <b class='purple'>Kockasto Slojeviti</b> i <b class='purple'>Cilindricno Slojeviti</b><br> <div class='wrap'> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/plocasto_slojevito_epitelno_tkivo.png' alt='.'> <h3>Plocasto Slojevto Epitelno Tkivo</h3> </div> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/kockasto_slojevito_epitelno_tkivo.png' alt='.2'> <h3>Kockasto Slojevito Epitelno Tkivo</h3> </div> <div class='row'> <img src='./assets/lection_icons/anatomy/tkiva/cilindricno_slojevito_epitelno_tkivo.png' alt='.3'> <h3>Cilindricno Slojevito Epitelno Tkivo</h3> </div> </div><br> </div> <div class='textbox'> Zlezdano Tkivo se deli na:<br> <b class='pink'>Egzokrino</b> i <b class='cyan'>Endokrino</b> Zlezdano Tkivo. <br> <br> <b class='pink'>Egzokrino</b> Zlezdano Tkivo cine Zlezde sa spoljasljim lucenjem kao sto su: <br> <ul class='one'> <li>Znojne</li> <li>Lojne</li> <li>Suzne</li> <li>Pljuvacne</li> <li>Mlecne</li> <li>...</li> </ul><br> <b class='cyan'>Egzokrino</b> Zlezdano Tkivo cine Zlezde sa unutrasljim lucenjem kao sto su: <br> <ul class='two'> <li>Hipofiza</li> <li>Stitasta Zlezda - Gladula Thyroidea</li> <li>Parastitasta Zlezda - Glandula Parathyroidea</li> <li>Nadbubrezna Zlezda - Glandula Suprarenalis</li> <li>Endokrini Pankreas</li> <li>Polne Zlezde - Gonade</li> <div class='arrow'> <img src='./assets/arrow-right.png' alt=''> <div class='text'> Testisi - Semenici<br> Ovarium - Jajnici </div> </div> </ul><br> </div>",
+        "lectionCss": "#AnatomijaEpitelnoTkivo .wrap { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; } #AnatomijaEpitelnoTkivo ul.one { margin: 10px 0; margin-inline: auto; width: 90%; display: flex; flex-wrap: wrap; list-style: none; } #AnatomijaEpitelnoTkivo ul.one li { width: 30%; margin: 10px 5px; border-bottom: 1px solid red; } #AnatomijaEpitelnoTkivo ul.two { margin: 10px 0; margin-inline: auto; width: 90%; display: flex; flex-direction: column; list-style: none; } #AnatomijaEpitelnoTkivo ul.two li { width: 100%; margin: 10px 5px; -webkit-text-decoration: underline #66d1cc; text-decoration: underline #66d1cc; } #AnatomijaEpitelnoTkivo ul.two .arrow { width: 100%; display: flex; } #AnatomijaEpitelnoTkivo ul.two .arrow img { width: 32px; height: 32px; margin-left: 15px; } #AnatomijaEpitelnoTkivo ul.two .arrow .text { margin-top: 1%; margin-left: 15px; -webkit-text-decoration: underline #66d1cc; text-decoration: underline #66d1cc; } @media (orientation: portrait) { #AnatomijaEpitelnoTkivo .textbox .row { display: flex; flex-direction: column; align-items: center; width: 100%; margin: 10px 0; box-shadow: 0 0 6px 1px rgb(11, 33, 73); font-weight: 400; } #AnatomijaEpitelnoTkivo .textbox img { width: 100%; } } @media (orientation: landscape) { #AnatomijaEpitelnoTkivo .textbox .row { display: flex; flex-direction: column; align-items: center; width: 32%; margin: 10px 5px; box-shadow: 0 0 6px 1px rgb(11, 33, 73); font-weight: 400; } #AnatomijaEpitelnoTkivo .textbox img { width: 100%; } }",
+        "firstInCategory": true,
+        "big": false,
+        "lectionCategory": "Tkiva",
+        "lectionQuestions": [
+            {
+                "q": "Na koje dve kategorije se deli Epitelno Tkivo?",
+                "a": "Na Pokrovno i Zlezdano Epitelno Tkivo.",
+                "t": "card"
+            },
+            {
+                "q": "Kako se deli Pokrovno Epitelno Tkivo?",
+                "a": "Deli se na Jednoslojno i Dvoslojno Epitelno Tkivo",
+                "t": "card"
+            },
+            {
+                "q": "Koje su vrste Jednoslojnog Epitelnog Tkiva?",
+                "a": "Ljuspasti, Kockasi i Cilindricni.",
+                "t": "card"
+            },
+            {
+                "q": "Koje su vrste Viseslojnog Epitelnog Tkiva",
+                "a": "Plocasto slojeviti, Kockasto slojeviti i Cilindricno slojeviti.",
+                "t": "card"
+            },
+            {
+                "q": "Koje vrste Zlezdanog Epitelnog Tkiva postoje?.",
+                "a": "Zlezdano Tkivo sa Endogrinim Lucenjem i Zlezdano Tkivo sa Egzokrinim Lucenjem.",
+                "t": "card"
+            },
+            {
+                "q": "Navedi neke vrste Zlezdanog Epitelnog Tkiva sa Egzokrinim Lucenjem.",
+                "a": "Znojne zlezde, Lojne zlezde, Suzne zlezde, Pljuvacne zlezde, Mlecne zlezde, Gusteraca...",
+                "t": "card"
+            },
+            {
+                "q": "Navedi primere Zlezdanog Tkiva sa Endokrinim Lucenjem.",
+                "a": "Hipofiza, Stitasta Zlezda, Parastitasta Zlezda, Nadbubrena Zlezda, Endokrini Pankreas i Gonade - Seminici i Jajnici",
+                "t": "card"
+            },
+            {
+                "q": "Stitasta Zlezda na Latinskom?",
+                "a": "Glandula Thyreoidea",
+                "t": "card"
+            },
+            {
+                "q": "Parastitasta Zlezda na Latinskom?",
+                "a": "Glandula Parathyreoidea",
+                "t": "card"
+            },
+            {
+                "q": "Nadbubrezna Zlezda na Latinskom?",
+                "a": "Glandula Suprarenalis",
+                "t": "card"
+            },
+            {
+                "q": "Semenici na Latinskom?",
+                "a": "Testisi",
+                "t": "card"
+            },
+            {
+                "q": "Jajnici na Latinskom?",
+                "a": "Ovarium",
+                "t": "card"
+            }
+        ],
+        "test": [
+            {
+                "question": "Na koje dve kategorije se deli Epitelno Tkivo?",
+                "answers": [
+                    "Jednoslojni i Viseslojni",
+                    "Zlezdano i Pokrovno",
+                    "Endokrino i Egzokrino",
+                    "Kostani i Nervni"
+                ],
+                "correctIndex": 1,
+                "keyWords": [
+                    "zlezdano",
+                    "pokrovno"
+                ],
+                "qType1": "multiGess",
+                "qType2": "picture", "info2": "corrdinates, drag and drop, inputbox",
+                "qType3": "list"
+                
+            },
+            {
+                "question": "Kako se deli se deli Zlezdano Epitelno Tkivo?",
+                "answers": [
+                    "Zlezdano i Pokrovno",
+                    "Kostani i Nervni",
+                    "Jednoslojni i Viseslojni",
+                    "Endokrino i Egzokrino"
+                    
+                ],
+                "correctIndex": 3,
+                "keyWords": [
+                    "endokrino",
+                    "egzokrino"
+                ]
+            },
+            {
+                "question": "1?",
+                "answers": [
+                    "4",
+                    "3",
+                    "1",
+                    "2"
+                    
+                ],
+                "correctIndex": 2,
+                "keyWords": [
+                    "1"
+                ]
+            },
+            {
+                "question": "2?",
+                "answers": [
+                    "4",
+                    "3",
+                    "1",
+                    "2"
+                    
+                ],
+                "correctIndex": 4,
+                "keyWords": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "lectionTitle": "Potporno Tkivo",
+        "lectionIcon": "anatomy/tkivo.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Potporno Tkivo</h1> <div class='textbox'> Potporno Tkivo se deli na: <br> <ul class='one'> <b class='blue'>Vezivno Tkivo</b><br> <b class='red'>Hrskavicavo Tkivo</b><br> <b class='green'>Kostano Tkivo</b><br> </ul> <br> </div> <div class='textbox'> <h2>Vezivno Tkivo</h2><br><br> <div class='inline'> <div class='left'> Sacinjeno je od:<br> &emsp;- <b class='under'>Fibrocita (vretenaste celije)</b><br> &emsp;- <b class='under'>Medjuceliska supstanca</b> <br> &emsp;- <b class='under'>Vezivna Vlakna</b>: <br> <div class='arrow'> <img src='./assets/arrow-right.png' alt=''> <b class='under'>Cvrasta (Kolagena) i Elasticna</b><br> </div> </div> <div class='right'> Vrste Vezivnog tkiva:<br> &emsp;- <b class='under'>Rastresito</b><br> &emsp;- <b class='under'>Retikularno</b> <br> &emsp;- <b class='under'>Masno</b>: <br><br> </div> </div> </div> <div class='textbox'> <h2>Hrskavicavo</h2><br><br> <img src='./assets/lection_icons/anatomy/tkiva/hrckavica.png' class='hrs'><br><br> Cine ga: <br> &emsp;- <b class='under2'>Hondrocita (hrskavicave celije)</b><br> &emsp;- <b class='under2'>Medjuceliska supstanca</b> <br> &emsp;- <b class='under2'>Vlakna (Elasticna ili Kolagena)</b><br> &emsp;- <b class='under2'>Perihondrium</b><br><br> <div class='about'> Povrsina svih hrskavica, osim zglobnih, pokrivena je tankim slojem, <b class='under2'>Perihondrium</b>, koji je vazan za ishrnu ovog tkiva. </div> <br><br> Vrste Hrskavicavog Tkiva:<br> &emsp;- <b class='under2'>Elasticno</b><br> &emsp;- <b class='under2'>Kolageno</b> <br> &emsp;- <b class='under2'>Hijalino</b><br><br> </div> <div class='textbox'> <h2>Kostano Tkivo</h2><br> <div class='kostano'> <img src='./assets/lection_icons/anatomy/tkiva/kostano_tkivo.png' class='bone'> <div> Kostano Tkivo cine: <br> &emsp;- <b class='under3'>Osteociti (kostane celije)</b><br> &emsp;- <b class='under3'>Medjuceliska supstanca</b> <br> &emsp;- <b class='under3'>Kolagena Vlakna</b><br> &emsp;- <b class='under3'>Velike kolicine Kalcijuma(Ca)</b><br><br> Kostano tkivo je rasporedjeno u obliku kostanih plocica, <b class='lightgreen'>Lamela</b>, koje ukoliko je gusto gradi <b class='green'>Kompaktno Tkivo</b>.<br><br> Kosti se tokom zivota konstatno izgradjuju i razgradjuju.<br><br> U sredistu kost se nalazi <b class='pink'>Kostana Srz</b> - <b class='pink'>Medulla Ossium</b>.<br><br> Kosti su bogate krvnim sudovima. </div> </div> </div>",
+        "lectionCss": "#AnatomijaPotpornoTkivo ul.one { margin-left: 20px; } #AnatomijaPotpornoTkivo h2 { text-align: center; font-weight: 400; font-size: 20px; } #AnatomijaPotpornoTkivo .under { -webkit-text-decoration: underline blue; text-decoration: underline blue; font-weight: 500; font-size: 14px; } #AnatomijaPotpornoTkivo .under2 { -webkit-text-decoration: underline red; text-decoration: underline red; font-weight: 500; font-size: 14px; } #AnatomijaPotpornoTkivo .under3 { -webkit-text-decoration: underline green; text-decoration: underline green; font-weight: 500; font-size: 14px; } #AnatomijaPotpornoTkivo .arrow { display: flex; align-items: center; margin-bottom: 20px; } #AnatomijaPotpornoTkivo .arrow img { width: 32px; height: 32px; margin-left: 40px; margin-right: 10px; } #AnatomijaPotpornoTkivo .inline { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; } #AnatomijaPotpornoTkivo .inline .left { margin: 0 20px; } #AnatomijaPotpornoTkivo .inline .right { margin: 0 50px; } #AnatomijaPotpornoTkivo .hrs { width: 90%; max-width: 400px; margin: 0 10px; } #AnatomijaPotpornoTkivo .about { width: 100%; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; background: #3f51b5; color: white; padding: 5px; padding-top: 20px; position: relative; margin-top: 20px; } #AnatomijaPotpornoTkivo .about::before { content: 'Vazno!'; padding-left: 5px; position: absolute; height: 20px; width: 100px; background: #3f51b5; top: -19px; left: 0; } #AnatomijaPotpornoTkivo .about::after { content: ''; width: 20px; height: 21px; background: #3f51b5; position: absolute; top: -20px; left: 104px; -webkit-clip-path: polygon(0% 0%, 100% 100%, 0 100%); clip-path: polygon(0% 0%, 100% 100%, 0 100%); } #AnatomijaPotpornoTkivo .bone { width: 100%; max-width: 300px; } @media (orientation: landscape) { #AnatomijaPotpornoTkivo .kostano { display: flex; } #AnatomijaPotpornoTkivo .bone { padding: 0 10px; border-right: 1px solid #1865f2; margin-right: 20px; } }",
+        "firstInCategory": false,
+        "big": false,
+        "lectionCategory": "Tkiva",
+        "lectionQuestions": [
+            {
+                "q": "Vrste Potpornog Tkiva:",
+                "a": "Vezivno, Hrskavicavo i Kostano Tkivo.",
+                "t": "card"
+            },
+            {
+                "q": "Od Cega je sacinjeno Vezivno Tkivo",
+                "a": "Od Fibrocita, Medjuceliske supstance i Vezivnih vlakana",
+                "t": "card"
+            },
+            {
+                "q": "Vrste Vezivnih Tkiva",
+                "a": "Rastresito, Retikularno i Masno",
+                "t": "card"
+            },
+            {
+                "q": "Od Cega je sacinjeno Hrskavicavo Tkivo?",
+                "a": "Hondrocita, Medjuceliske supstance i Vlakana",
+                "t": "card"
+            },
+            {
+                "q": "Kako se zove sloj koji prekriva zglobove?",
+                "a": "Perihondrium",
+                "t": "card"
+            },
+            {
+                "q": "Vrste Hrskavicavog Tkiva?",
+                "a": "Elasticna, Kolagena i Hijalina.",
+                "t": "card"
+            },
+            {
+                "q": "Od Cega je sacinjeno Kostano Tkivo?",
+                "a": "Osteocita, Medjuceliske supstance, Kolagenih Vlakana i Kalcijuma",
+                "t": "card"
+            },
+            {
+                "q": "Kako je rasporedjeno Kostano Tkivo",
+                "a": "U obliku kostanih plocica",
+                "t": "card"
+            },
+            {
+                "q": "Sta se nalazi u sredistu Kostanog Tkiva?",
+                "a": "Kostana Srz.",
+                "t": "card"
+            },
+            {
+                "q": "Kako se kaze Kostana Srz na latinskom?",
+                "a": "Medulla Ossium",
+                "t": "card"
+            }
+        ],
+        "test": [
+
+        ]
+    },
+    {
+        "lectionTitle": "Misicno Tkivo",
+        "lectionIcon": "anatomy/tkivo.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Misicno Tkivo</h1> <div class='textbox'> Misicno Tkivo je izgradjeno od misicnih celija - <b class='pink'>Miocita</b>.<br><br> Deli se na:<br> <b class='under1'>-Glatko</b><br> <b class='under2'>-Poprecno-Prugasto</b><br> <b class='under3'>-Srcano Misicno Tkivo</b> </div> <div class='textbox'> <h2>Glatko Misicno Tkivo</h2><br><br> <div class='devider'> <img src='./assets/lection_icons/anatomy/tkiva/glatko_misicno_tkivo.jpg' class='g'> <div> Locirano je u zidovima unutrasnjih organa.<br><br> Gradi Glatke Misice.<br><br> Deo je <b class='pink'>vegetativnog</b>, autonomnog, <b class='pink'>nervnog sistema</b>.<br><br> </div> </div> </div> <div class='textbox'> <h2>Poprecno-Prugasto Misicno Tkivo</h2> <div class='devider'> <img src='./assets/lection_icons/anatomy/tkiva/poprecno_prugasto_misicno_tkivo.jpg' class='b'> <div> Poprecno-Prugaste Misicne celije grade Poprecno-Prugasto Misicno Tkivo.<br><br> Pomrecno-Prugasti Misici su pod uticajem <b class='pink'>Covekove Volje</b>. </div> </div> </div> <div class='textbox'> <h2>Srcano Misicno Tkivo</h2> <div class='devider'> <img src='./assets/lection_icons/anatomy/tkiva/srcano_misicno_tkivo.jpg' class='r'> <div> Drugacije se naziva <b class='pink'>Miokard</b>.<br><br> Izgradjeno je od Srcano Misicnih Celija.<br><br> Nadrazaji se prenose brzo sa Jedne Celije na Drugu.<br> </div> </div> </div>",
+        "lectionCss": "#AnatomijaMisicnoTkivo ul { display: flex; flex-direction: column; } #AnatomijaMisicnoTkivo .under1 { font-weight: 300; color: green; } #AnatomijaMisicnoTkivo .under2 { font-weight: 300; color: blue; } #AnatomijaMisicnoTkivo .under3 { font-weight: 300; color: red; } #AnatomijaMisicnoTkivo h2 { text-align: center; font-weight: 400; font-size: 20px; } #AnatomijaMisicnoTkivo img { width: 100%; max-width: 300px; } @media (orientation: landscape) { #AnatomijaMisicnoTkivo .devider { display: flex; } #AnatomijaMisicnoTkivo img { padding: 0 10px; margin-right: 20px; } #AnatomijaMisicnoTkivo img.g { border-right: 2px solid green; } #AnatomijaMisicnoTkivo img.b { border-right: 2px solid #1865f2; } #AnatomijaMisicnoTkivo img.r { border-right: 2px solid red; } } @media (orientation: portrait) { #AnatomijaMisicnoTkivo img { padding: 10 0px; margin-bottom: 20px; } #AnatomijaMisicnoTkivo img.g { border-bottom: 2px solid green; } #AnatomijaMisicnoTkivo img.b { border-bottom: 2px solid #1865f2; } #AnatomijaMisicnoTkivo img.r { border-bottom: 2px solid red; } }",
+        "firstInCategory": false,
+        "big": false,
+        "lectionCategory": "Tkiva",
+        "lectionQuestions": [
+            {
+                "q": "Vrste Misicnog Tkiva?",
+                "a": "Glatko Misicno Tkivo, Poprecno-Prugasto Misicno Tkivo i Srcano Misicno Tkivo",
+                "t": "card"
+            }
+        ],
+        "test": []
+    },
+    {
+        "lectionTitle": "Nervno Tkivo",
+        "lectionIcon": "anatomy/tkivo.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Nervno Tkivo</h1> <div class='textbox'> <div class='devider'> <img src='./assets/lection_icons/anatomy/tkiva/neuron.png'><br><br> <div> Nervno Tkivo je sacinjeno od nervnih celija - <b class='blue'>Neurona</b>.<br><br> Osobine Nervnog Tkiva:<br> <div class='list'> -<b class='red'>Nadrazljivo je</b> <br> -<b class='red'>Prenosi Nadrazaje</b><br> -<b class='red'>Nemoze da se umnozava</b><br> </div><br><br> <b class='pink'>Sinapsa</b> je funkcionalna veza koja komunicira pomocu <b class='pink'>Neurotransmitera</b>.<br><br> </div> </div> <b class='blue'>Neuron</b> je sastavnjen od:<br> <div class='list'> - <b class='purple'>Dendrita</b> (10-15) <br> - <b class='purple'>Glave</b> (<b class='purple'>Some</b>) <br> - <b class='purple'>Tela</b> (<b class='purple'>Axon</b>) <br> - <b class='purple'>Mijelin</b> - Zastitni omotac Axona. </div><br> <div class='about'> U <b class='under'>Centralnom</b> i <b class='under'>Perifernom nervnom sistemu</b> se nalazi bela i siva masa.<br> Bela masa je sacinjena od axona a siva od Soma.<br><br> </div><br> <b class='under'>Periferni nervni sistem</b> je sacinjen od kismene mozdine - <b class='latin'>medulla spinalis</b>.<br><br> <b class='under'>Centralni nervni sistem</b> je sacinjen od mozga - <b class='latin'>encephalon</b>.<br><br> </div>",
+        "lectionCss": "#AnatomijaNervnoTkivo img { width: 100%; max-width: 300px; } #AnatomijaNervnoTkivo .list { padding-left: 20px; } #AnatomijaNervnoTkivo .list b { font-weight: 300; } #AnatomijaNervnoTkivo .about { width: 100%; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; background: #3f51b5; color: white; padding: 5px; padding-top: 20px; position: relative; margin-top: 20px; } #AnatomijaNervnoTkivo .about::before { content: 'Vazno!'; padding-left: 5px; position: absolute; height: 20px; width: 100px; background: #3f51b5; top: -19px; left: 0; } #AnatomijaNervnoTkivo .about::after { content: ''; width: 20px; height: 21px; background: #3f51b5; position: absolute; top: -20px; left: 104px; -webkit-clip-path: polygon(0% 0%, 100% 100%, 0 100%); clip-path: polygon(0% 0%, 100% 100%, 0 100%); } #AnatomijaNervnoTkivo .under { -webkit-text-decoration: underline red; text-decoration: underline red; font-weight: 300; } #AnatomijaNervnoTkivo .latin { -webkit-text-decoration: underline green; text-decoration: underline green; font-style: italic; } @media (orientation: landscape) { #AnatomijaNervnoTkivo .devider { display: flex; } #AnatomijaNervnoTkivo img { margin-right: 20px; margin-bottom: 10px; } }",
+        "firstInCategory": false,
+        "big": false,
+        "lectionCategory": "Tkiva",
+        "lectionQuestions": [
+            {
+                "q": "Kako se zovu Celije koje grade Nervno Tkivo?",
+                "a": "Neuroni",
+                "t": "card"
+            },
+            {
+                "q": "Koje su Osobine Nervnog Tkiva?",
+                "a": "Nadrazljivo je, Prenosi Nadrazaje i nemoze da se Umnozava.",
+                "t": "card"
+            },
+            {
+                "q": "Sta je Sinapsa?",
+                "a": "Sinapsa je Funkcionalna Veza koja komunicira pomocu Neurotransmitera.",
+                "t": "card"
+            },
+            {
+                "q": "Delovi Neurona:",
+                "a": "Dendriti, Soma, Axon i Mijelin",
+                "t": "card"
+            },
+            {
+                "q": "Od cega je sacinjena Bela masa mozga a od cega Siva masa?",
+                "a": "Bela masa je od axona a siva od soma.",
+                "t": "card"
+            },
+            {
+                "q": "Kicmena mozdina na Latinskom?",
+                "a": "Medulla Spinalis",
+                "t": "card"
+            },
+            {
+                "q": "Mozak na Latinskom.",
+                "a": "Encephalon",
+                "t": "card"
+            }
+        ],
+        "test": []
+    },
+    {
+        "lectionTitle": "Telesne Tecnosti",
+        "lectionIcon": "anatomy/krv.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Telesne Tecnosti</h1> <div class='textbox'> 50%-75% cine telesne tecnosti.<br> Faktori:<br> <ul> <li> -<b class='red'>Uzrast</b> (Sto je osoba starija manje vode ima u organizmu) </li> <li> -<b class='red'>Uhranjenost</b> (Sto je osoba gojaznija ima manje vode a vise masnog tkiva) </li> <li> -<b class='red'>Pol</b> (Muskarci imaju veci procenat vode zbog veceg broja misicnog tkiva) </li> </ul><br> Tecnosti mogu biti <b class='blue'>Intracelularne</b> i <b class='green'>Ekstracelularne</b>. </div> <div class='textbox'> <h3><b class='blue'>INTRACELULARNE</b></h3><br> Cine oko 40% telesne tecnosti.<br> Njen sastav zavisi od tkiva i organa, a sadrzi dosta <b class='underB'>Fosfata</b>, <b class='underB'>Magneziuma</b>, <b class='underB'>Hranljivih Materija</b>.<br> Glavni jon je <b class='underB'>Kalijum(K+)</b>. </div> <div class='textbox'> <h3><b class='green'>EKSTRACELULARNE</b></h3><br> U ekstracelularnu tecnost spada:<br> <ul> <li>-<b class='underG'>Voda krvne plazme</b></li> <li>-<b class='underG'>Medjuceliska tecnost sa limfom</b></li> <li>-<b class='underG'>Voda vezivnog tkiva, hrskavice i kostiju</b></li> <li>-<b class='underG'>Transcelularna tecnost</b> (ocna vodica, sinovijalna tecnost, mozdana tecnost...)</li> </ul> Glavni jon je <b class='underG'>Natrijum(Na+)</b>. </div> <div class='textbox' id='flex'> <div class='text'>Sve materije razmenjuju se izmedju krvne plazme i medjuceliske tecnosti i Intracelularne tecnosti.</div> <img src='./assets/lection_icons/anatomy/krv/text.png'> </div>",
+        "lectionCss": "#AnatomijaTelesneTecnosti ul { display: flex; flex-direction: column; list-style: none; margin: 0 10px; } #AnatomijaTelesneTecnosti h3 { text-align: center; } #AnatomijaTelesneTecnosti .underB { -webkit-text-decoration: underline blue; text-decoration: underline blue; font-weight: 600; } #AnatomijaTelesneTecnosti .underG { -webkit-text-decoration: underline green; text-decoration: underline green; font-weight: 600; } #AnatomijaTelesneTecnosti img { width: 80%; transform: translate(-50%); margin-left: 50%; } @media (orientation: landscape) { #AnatomijaTelesneTecnosti #flex { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, auto)); } }",
+        "firstInCategory": true,
+        "big": false,
+        "lectionCategory": "Krv",
+        "lectionQuestions": [
+            {
+                "a": "acutus, -a, -um",
+                "q": "ostar",
+                "t": "card"
+            },
+            {
+                "a": "aegrotus, -a, -um",
+                "q": "bolesnik",
+                "t": "card"
+            },
+            {
+                "a": "bulbus, -i, -m",
+                "q": "jabucica",
+                "t": "card"
+            },
+            {
+                "a": "caeruleus, -a, -um",
+                "q": "plav",
+                "t": "card"
+            },
+            {
+                "a": "chronicus, -a, -um",
+                "q": "hronican",
+                "t": "card"
+            },
+            {
+                "a": "coma, -ae, -f",
+                "q": "ostar",
+                "t": "card"
+            },
+            {
+                "a": "cornea, -ae, -f",
+                "q": "ostar",
+                "t": "card"
+            }
+        ],
+        "test": []
+    },
+    {
+        "lectionTitle": "Uloge Krve",
+        "lectionIcon": "anatomy/krv.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Uloge Krvi</h1> <div class='textbox'> <b class='red'>Krv</b> - <b class='latin'>Sangus</b><br> Krv pretstavlja 6%-8% telesne tezine.<br><br> Anatomski Covek:<br> <div class='covek'> <img src='./assets/lection_icons/anatomy/krv/anatomski_covek.jpg'> <div class='right'> <div class='info'> -<b class='underR'>25godina</b><br> -<b class='underR'>180cm</b><br> -<b class='underR'>70kg</b><br> -<b class='underR'>Muskarac</b><br> </div> <img src='./assets/lection_icons/anatomy/krv/tabela.png' id='s'> </div> </div> </div> <div class='textbox'> Uloge Krvi:<br><br> <h3 class='underR'>1. Respiratorna</h3> -Respiratorna uloga Krvi je prenos Kiseonika od Pluca do Celija, do Tkiva i prenos Ugljen-Dioksida od Tkiva do Pluca.<br><br> <h3 class='underR'>2. Nutritivna</h3> -Prenosi hranljive materije od digestivnog trakta do celija.<br><br> <h3 class='underR'>3. Ekskretorna</h3> -Izbacivanje svih stetnih materija kroz bubrege.<br> -Ukoliko je hidrosolubilno onda izbacujemo besikom.<br> -Ukoliko je liposolubilno onda se luci kroz debelocrevo.<br>  <b class='purple'>Hidrosolubilno</b> - Rastvorljivo u vodi.<br>  <b class='purple'>Liposolubilno</b> - Rastvorljivo u masti.<br><br> <h3 class='underR'>4. Odbrambena</h3> -Odbrambenu ulogu u telu cine antitela koja stvaraju <b class='green'>B-Limfociti</b> (vrsta Leukocita).<br> -<b class='purple'>Fagocitoza</b> je unosenje krupnih cestica.<br> -<b class='purple'>Pinocitoza</b> je unosenje tecnosti<br><br> <h3 class='underR'>5. Transportna</h3> -Prenosi Hormone, Enzime i Vitamine sa jednog mesta na drugo.<br> -<b class='cyan'>Autokrino</b> - deluje na samu sebe (celija).<br> -<b class='cyan'>Endokrino</b> - deluje na drugu udaljenu celiju. <br> -<b class='cyan'>Parakrino</b> - deluje na celiju pored.<br><br> <h3 class='underR'>6. Regulatorna</h3> -Kontrolise telesnu temperaturu pomocu kolicine Vode. </div>",
+        "lectionCss": "#AnatomijaUlogeKrve .latin { font-style: italic; font-weight: 300; } #AnatomijaUlogeKrve img { width: 100%; } #AnatomijaUlogeKrve .underR { -webkit-text-decoration: underline red; text-decoration: underline red; font-weight: 500; } @media (orientation: landscape) { #AnatomijaUlogeKrve .covek { display: flex; } #AnatomijaUlogeKrve img { width: 40%; height: auto; border-right: 1px solid black; margin: 0 10px; } #AnatomijaUlogeKrve #s { width: 80%; height: 80%; border: none; } #AnatomijaUlogeKrve .right { display: flex; flex-direction: column; align-items: center; } #AnatomijaUlogeKrve .info { width: 100%; } }",
+        "firstInCategory": false,
+        "big": false,
+        "lectionCategory": "Krv",
+        "lectionQuestions": [],
+        "test": []
+    },
+    {
+        "lectionTitle": "Krvna Plazma",
+        "lectionIcon": "anatomy/krv.png",
+        "lectionHtml": "<h1 class='lectionTitle'>Krvana Plazma</h1> <div class='textbox'> -Krvana Plazma je tecni deo krvi. Pretstavlja vodeni rastvor organskih i neorganskih materija.<br> </div> <div class='textbox'> <h3 class='underR'>Neorganske Materije</h3> U neorganske sastojke krvne plazme ubrajaju se:<br>  -Voda (91%-92% krvne plazme)<br>  -Mineralne Soli<br> Mineralne soli su razlozene na Anjone i Katjone. (Elektroliti krvne plazme)<br> Najvazniji Katjoni krvne plazme su:<br> <ul> <li>-<b class='orange'>Natrijum</b> (Na+)</li> <li>-<b class='orange'>Kalijum</b> (K+)</li> <li>-<b class='orange'>Kalcijum</b> (Ca++)</li> <li>-<b class='orange'>Magnezijum</b> (Mg++)</li> </ul><br> Najvazniji Anjoni krvne plazme su:<br> <ul> <li>-<b class='turkishrose'>Hloridi</b></li> <li>-<b class='turkishrose'>Bikarbonati</b></li> <li>-<b class='turkishrose'>Fosfati</b></li> <li>-<b class='turkishrose'>Sulfati</b></li> </ul><br> Od soli natrijuma najzastupljeniji je <b class='underGr'>Natrijum Hlorid (NaCl)</b><br> Od kolicine elektrolita u krvi (presvega NaCl) zavisi <b class='underP'>Osmotski Pritisak</b> krvne plazme.<br><br> <b class='underP'>Osmotski Pritisak</b> pretstavlja pritisak cestica rasporedjenih u krvi koje se stalno krecu u krvoj plazmi.<br> <b class='underP'>Osmotski Pritisak</b> mora da bude stalan jer od njega zavisi stanje krvnih celija, narocito Eritrocita.<br><br> Organizmu koji je izgubio mnogo telesne tecnosti nesme se davati destilovana voda nego <b class='blue'>Izotonicni Rastvor</b> koji se jos i naziva <b class='underB'>Fizioloski Rastvor</b>.<br> <b class='blue'>Izotonici rastvor</b> ima istu kolicinu mineralnih materija kao krv zato se moze uneti direktno u krvotok.<br>  <b class='underG'>Hipertonicni rastvori</b> sadrze vecu kolicinu mineralnih soli, tj. imaju veci osmotski pritisak nego krv.<br>  <b class='underG'>Hipotonicni rastvori</b> sadrze manju kolicinu mineralnih soli, tj. imaju manji osmotski pritisak nego krv.<br> <div class='responsive'> <img src='./assets/lection_icons/anatomy/krv/Hipertonicni_rastvor.png' alt=''> <img src='./assets/lection_icons/anatomy/krv/Hipotonicni_rastvor.png' alt=''> </div><br> U <b class='underG'>Hipertonicnom rastvoru</b> se eritrocit smezurao dok u <b class='underG'>Hipotonicnom rastvoru</b> eritrocit se naduvao i pukao.<br> </div> <div class='textbox'> <h3 class='underR'>Organske Materije</h3> Od Organskih materija u krvoj plazmi se nalaze belancevine(proteini), ugljeni-hidrati i masti.<br> Najznacajne belancevine krvne plazme su: <ul> <li>-<b class='underLB'>Albumini</b>(Transport)</li> <li>-<b class='underLB'>Globulini</b>(Zastita)</li> <li>-<b class='underLB'>Fibrinogen</b>(Koagulacija)</li> </ul><br> Belancevine stvaraju <b class='underP'>Onkotski pritisak</b> (2.15kPa - 5.15kPa).<br> Od Organskih materija u krvnoj plazmi nalaze se i: <ul> <li>-<b class='underG'>Glukoza</b></li> <li>-<b class='underG'>Holesterol</b></li> <li>-<b class='underG'>Trigliceridi</b></li> <li>...</li> </ul> </div>",
+        "lectionCss": "#AnatomijaKrvnaPlazma .underR { -webkit-text-decoration: underline red; text-decoration: underline red; font-weight: 500; } #AnatomijaKrvnaPlazma ul { margin-left: 10px; list-style: none; } #AnatomijaKrvnaPlazma .underGr { -webkit-text-decoration: underline #288BA8; text-decoration: underline #288BA8; font-weight: 500; } #AnatomijaKrvnaPlazma .underP { -webkit-text-decoration: underline #746AB0; text-decoration: underline #746AB0; font-weight: 500; } #AnatomijaKrvnaPlazma .underB { -webkit-text-decoration: underline blue; text-decoration: underline blue; font-weight: 500; } #AnatomijaKrvnaPlazma .underG { -webkit-text-decoration: underline #7CFF01; text-decoration: underline #7CFF01; font-weight: 500; } #AnatomijaKrvnaPlazma .underLB { -webkit-text-decoration: underline #1F51FF; text-decoration: underline #1F51FF; font-weight: 500; } #AnatomijaKrvnaPlazma img { width: 100%; } #AnatomijaKrvnaPlazma .responsive img { margin: 20px 0; } @media (orientation: landscape) { #AnatomijaKrvnaPlazma .responsive { display: flex; } #AnatomijaKrvnaPlazma .responsive img { width: 40%; margin: 10px 5%; } }",
+        "firstInCategory": false,
+        "big": false,
+        "lectionCategory": "Krv",
+        "lectionQuestions": [],
+        "test": []
+    },
+    {"end": true}
+]
