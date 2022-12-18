@@ -1,0 +1,24 @@
+{
+  "name": "nexus_api_1.0",
+  "version": "1.0.0",
+  "description": "med-school.netlify.com express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrijaRD/School_Website.git"
+  },
+  "author": "AndrijaRD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrijaRD/School_Website/issues"
+  },
+  "homepage": "https://github.com/AndrijaRD/School_Website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.0"
+  }
+}
