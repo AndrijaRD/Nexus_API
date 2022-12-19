@@ -5,10 +5,10 @@ const fs = require('fs');
 const app = express();
 const router = Router();
 
-router.get("/:subject", (req, res) => {
-  var raw_data = fs.readFileSync('./src/' + req.params.subject + '.json');
-  var data = JSON.parse(raw_data);
-  res.send(data);
+router.get("/", (req, res) => {
+  //var raw_data = fs.readFileSync('./src/' + req.params.subject + '.json');
+  //var data = JSON.parse(raw_data);
+  res.send('functions');
 });
 
 app.use(`/.netlify/functions/api`, router);

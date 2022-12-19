@@ -6,9 +6,7 @@ const app = express();
 const router = Router();
 
 router.get("/", (req, res) => {
-  var raw_data = fs.readFileSync('./src/' + 'anatomija' + '.json');
-  var data = JSON.parse(raw_data);
-  res.send('data');
+  res.send('src');
 });
 
 app.use(``, router);
